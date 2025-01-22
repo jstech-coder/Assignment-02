@@ -131,7 +131,7 @@
 }
 
 .curriculum-section {
-  margin: 130px auto;
+  margin: 50px auto;
 }
 .curriculum-cards {
   display: grid;
@@ -139,10 +139,11 @@
   grid-gap: 20px;
   text-align: center;
   height: 450px;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .curriculum-cards a {
   text-decoration: none;
+  margin-top: 30px;
 }
 .curriculum-card-1 {
   box-sizing: border-box;
@@ -155,6 +156,16 @@
     ),
     rgb(255, 255, 255);
   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  padding: 30px 10px;
+}
+.curriculum-card-1 p {
+  margin-bottom: 50px;
+}
+.curriculum-card-1 a {
+  color: rgb(100, 200, 255);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
 }
 .curriculum-card-2 {
   box-sizing: border-box;
@@ -168,6 +179,17 @@
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+  padding: 30px 10px;
+}
+
+.curriculum-card-2 p {
+  margin-bottom: 50px;
+}
+.curriculum-card-2 a {
+  color: rgb(240, 170, 0);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
 }
 .curriculum-card-3 {
   box-sizing: border-box;
@@ -181,6 +203,16 @@
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+  padding: 30px 10px;
+}
+.curriculum-card-3 p {
+  margin-bottom: 50px;
+}
+.curriculum-card-3 a {
+  color: rgb(135, 0, 255);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .carousel-buttons {
@@ -211,7 +243,6 @@
 .stories-section {
   display: flex;
   margin: 0 auto;
-  padding: 40px 0;
   gap: 10px;
 }
 .big-card {
@@ -261,4 +292,66 @@
   background: rgb(149, 178, 38);
   padding: 8px 16px;
   border: none;
+}
+
+.stories-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.stories-btn button {
+  color: whitesmoke;
+  background: rgb(17, 17, 17);
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  margin: 50px 0;
+}
+
+/* footer section style is start here */
+
+footer {
+  background: rgb(1, 172, 253);
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 0 auto;
+  padding: 80px;
+}
+.footer-logo-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.footer-logo-title img {
+  width: 40px;
+  height: 40px;
+}
+.footer-logo-title h5 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-text p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-section h3 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 700;
+}
+.footer-links ul li {
+  list-style: none;
+  padding: 13px 0;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
 }
